@@ -1,0 +1,16 @@
+<div>
+  <h2>Meal List</h2>
+  <button (click)="createMeal()">Create New Meal</button>
+  <ul>
+    <li *ngFor="let meal of meals">
+      <h3>{{ meal.name }}</h3>
+      <p>{{ meal.ingredients }}</p>
+      <p>Calories: {{ meal.calories }}</p>
+      <p>Protein: {{ meal.protein }}g</p>
+      <p>Carbs: {{ meal.carbs }}g</p>
+      <p>Fats: {{ meal.fats }}g</p>
+      <button (click)="editMeal(meal._id)">Edit</button>
+      <button (click)="deleteMeal(meal._id)">Delete</button>
+    </li>
+  </ul>
+</div>
