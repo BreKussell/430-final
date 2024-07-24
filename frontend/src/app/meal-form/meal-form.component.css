@@ -1,0 +1,28 @@
+/* Styles for meal form */
+.meal-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .meal-form input, .meal-form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #473FBD;
+    border-radius: 5px;
+  }
+  
+  .meal-form button {
+    margin-top: 20px;
+  }
+  

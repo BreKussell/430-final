@@ -1,0 +1,29 @@
+/* Styles for meal list */
+.meal-list {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .meal-list ul {
+    padding: 0;
+  }
+  
+  .meal-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .meal-list h3 {
+    margin: 0;
+  }
+  
+  .meal-list p {
+    margin: 5px 0;
+  }
+  
+  .meal-list button {
+    align-self: flex-end;
+    margin-left: 10px;
+  }
+  

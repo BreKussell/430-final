@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EAE7F6;
+    color: #1A1814;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #473FBD;
+  }
+  
+  a {
+    color: #473FBD;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #B77FF7;
+  }
+  
+  button {
+    background-color: #473FBD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #B77FF7;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #473FBD;
+    border-radius: 5px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
